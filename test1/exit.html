@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body,h1,h2{
+            margin: 0;
+            padding: 0;
+        }
+        .bg{
+            width: 100%;
+            height: 100vh;
+            background: url(/131313.jpg) no-repeat 0 0 / cover;
+        }
+        .bg .reletive{
+            border: 1px solid red;
+            position: relative;
+            width: 50%;
+            height: 50%;
+            left: 30%;
+            top: 30%;
+        }
+        .back, .exit{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            font-weight: bold;
+            font-size: 5em;
+        }
+        .back{
+            top: 30%;
+            left: 15%;
+            border: 1px solid #000;
+        }
+        .exit{
+            top: 30%;
+            right: 15%;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="reletive">
+            <h1 class="back">Text</h1>
+        </div>
+        <!-- <h2 class="exit">Text</h2> -->
+    </div>
+</body>
+</html>
